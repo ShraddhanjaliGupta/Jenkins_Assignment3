@@ -1,4 +1,4 @@
 FROM openjdk:17
 EXPOSE 8067
 ADD target/Jenkins_Assignment-0.0.1-SNAPSHOT.jar jenkinsAssignment.jar
-ENTRYPOINT ["java","-jar","/spring-boot-docker.jar"]
+ENTRYPOINT ["java","-jar","/Jenkins_Assignment-0.0.1-SNAPSHOT.jar"]
