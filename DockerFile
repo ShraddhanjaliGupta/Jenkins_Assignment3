@@ -1,4 +1,6 @@
-FROM openjdk:17
+FROM openjdk:11
 EXPOSE 8067
-ADD target/Jenkins_Assignment-0.0.1-SNAPSHOT.jar jenkinsAssignment.jar
-ENTRYPOINT ["java","-jar","/Jenkins_Assignment-0.0.1-SNAPSHOT.jar"]
+ADD target/jenkins_assignment.jar jenkins_assignment.jar
+ENTRYPOINT ["java","-jar","/jenkins_assignment.jar"]
+
+

@@ -77,10 +77,16 @@
 					</execution>
 				</executions>
 			</plugin>
+			
+			
+			
+			
+			
+			
 		</plugins>
 		
 
-		<finalName>Jenkins_Assignment-0.0.1-SNAPSHOT</finalName>
+		<finalName>jenkins_assignment</finalName>
 	</build>
 
 </project>
